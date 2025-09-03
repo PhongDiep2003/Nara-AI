@@ -1,0 +1,18 @@
+{
+    "root_agent": {
+        "identity_key": "5a8ed3facfa66c8edef260df12078cf7862e56f3c41c25ada9e006154263c64c",
+        "wallet_key": "/QAHRT9Pj422th3RFWGndQijktEu9ht/F9y+P3HYlqk="
+    },
+    "file classifier agent": {
+        "identity_key": "ec65ff89f5bd5f36ee352755b767d3b3217bd850e2a2114e7f506fb49cb4f905",
+        "wallet_key": "i6rwRXeT9L6TMwoCBmrg4ZLpQGKO0LL1blyiVTB75Wk="
+    },
+    "ppt processing agent": {
+        "identity_key": "28aa3293fc3430aab76f29fb29ed019142f840f54789c7f054b105e56e5461b8",
+        "wallet_key": "QhW61jjk+/FhxX5B6vfAYB44dI59Y7ZWcd5JN6lJDcE="
+    },
+    "summary agent": {
+        "identity_key": "d657e51fea9cf01c5f39eb189e6d5d492e822c8706953f0ae2052d84e91bc336",
+        "wallet_key": "WC5EOg1sKOh0hL1FaSmYzWh5OQGiSnwafCO01PSdsxY="
+    }
+}
