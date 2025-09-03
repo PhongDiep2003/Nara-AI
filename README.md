@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nara AI 🎥🤖
 
-## Getting Started
+Nara AI transforms your PPTX files into fully narrated video presentations.
 
-First, run the development server:
+1. Simply upload your slides.
+2. Let Nara generate your own script.
+3. Feel free to edit or re-generate the script as many times as you like.
+4. Select any of provided voices to narrate your script.
+5. Check how the selected voice sounds in each slide (you can try experimenting as many voices as you like).
+6. Once you're happy with the script and the voice, relax and let Nara generate a professional-quality video that feels just like a real presentation.
+7. Once the video is generated, you can view it directly from the Nara's UI and feel free to download it.
+
+---
+
+## ✨ Features
+
+- 📂 **Upload PPTX** – Start with your presentation file.
+- 📝 **Auto Script Generation** – Generates draft narration for each slide.
+- ✏️ **Script Editing** – Edit and refine the text to fit your style.
+- 🗣️ **Voice Selection** – Pick from a range of realistic AI voices.
+- 🎬 **Video Generation** – Automatically sync narration with slides.
+- ⬇️ **Download Video** – Export your final narrated presentation.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/PhongDiep2003/Nara-AI.git
+cd nara-ai
+```
+
+### 2. Run the application
+
+**Backend (FastAPI):**
+
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python app.py
+python agents.py
+```
+
+**Frontend (React + Next.js):**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app will be available at:  
+👉 Frontend: `http://localhost:3000`  
+👉 API: `http://localhost:8000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎥 Live Demo
 
-## Learn More
+🔗 [Try Nara AI Live](https://your-demo-link.com)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Frontend:** React, Next.js, TailwindCSS
+- **Backend:** FastAPI, Python
+- **AI/ML:** OpenAI TTS & NLP APIs
+- **Storage:** Local/Cloud file storage for PPTX and generated media
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📜 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.
