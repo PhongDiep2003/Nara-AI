@@ -39,6 +39,7 @@ cd nara-ai
 ```bash
 cd backend
 python -m venv venv
+export OPENAI_API_KEY = <YOUR OPENAI API KEY>
 source venv/bin/activate
 pip install -r requirements.txt
 python app.py
