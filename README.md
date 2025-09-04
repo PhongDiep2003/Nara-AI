@@ -59,19 +59,12 @@ The app will be available at:
 
 ## 🎥 Live Demo
 
-🔗 [Try Nara AI Live](https://your-demo-link.com)
+🔗 [Nara AI Live Demo Video](https://youtu.be/to1NT76hK_c)
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React, Next.js, TailwindCSS
-- **Backend:** FastAPI, Python
-- **AI/ML:** OpenAI TTS & NLP APIs
-- **Storage:** Local/Cloud file storage for PPTX and generated media
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
+- **Frontend:** React, Next.js, TypeScript, TailwindCSS
+- **Backend:** FastAPI, Python, FFMPEG, Uagents, LibreOffice, pdftoppm
+- **AI/ML:** OpenAI, TTS
